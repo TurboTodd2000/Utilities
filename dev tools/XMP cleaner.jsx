@@ -5,12 +5,13 @@
 //----------------------------------------
 
 //adapted from code found online, all hail the overbrain!
+//taken from https://community.adobe.com/t5/indesign-discussions/edit-idml-remove-metadata-save-again-open-in-indesign-can-t-open/td-p/9368046
 
 //Altered by Todd on 11/27/23
 //Updated by Todd on 
 
 //Changelog
-//restructured to use a dialog to handle cleaning the currently open file, set up for sanity functions
+//restructured to use a dialog to handle cleaning the currently open file, set up for sanity functions, added attribution
 
 
 
