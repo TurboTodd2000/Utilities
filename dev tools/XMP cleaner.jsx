@@ -1,5 +1,3 @@
-
-
 //----------------------------------------
 //XMP Cleaner
 //----------------------------------------
@@ -8,10 +6,10 @@
 //taken from https://community.adobe.com/t5/indesign-discussions/edit-idml-remove-metadata-save-again-open-in-indesign-can-t-open/td-p/9368046
 
 //Altered by Todd on 11/27/23
-//Updated by Todd on 
+//Updated by Todd on 11/30/23
 
 //Changelog
-//restructured to use a dialog to handle cleaning the currently open file, set up for sanity functions, added attribution
+//removed debugging alerts
 
 
 
@@ -90,7 +88,7 @@ try
 	//run function passing file path from either current open file or dialog
 	XMPclean(pathToUse);
 
-alert("clean run");
+//alert("clean run");
 
 }
 
@@ -108,7 +106,7 @@ alert(e.message+"//"+e.line );
 //if open file flag is yes then use the stored path variable to reopen the file
 if (openFileFlag == "yes") {
 	
-	alert(pathToUse);
+	//alert(pathToUse);
 
 	app.open(pathToUse);
 
