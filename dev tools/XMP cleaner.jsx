@@ -64,7 +64,7 @@ var docName = Left(docName, String(docName).length - 5);
 // Call function within a try/catch block to handle error if thrown
 try {
 
-	var result = confirmDialog("Do you want to clean the current open file?");;
+	var result = confirmDialog("Do you want to clean the current open file?");
 
 	// Access the returned variables from the result object
 	var openFileFlag = result.openFileFlag;
